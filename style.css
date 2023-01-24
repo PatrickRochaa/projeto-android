@@ -169,14 +169,17 @@ aside a{
 }
 
 footer{
+
     background-color: var(--cor5);
-    height: 6px;
+    height: 16px;
     color: white;
     text-align: center;
     font-size: 0.9em;
     padding: 5px;
-    padding-bottom: 14px;
-    margin-bottom: 13px;
+    padding-top: 24px;
+    padding-bottom: 19px;
+    margin-bottom: 24px;
+    
 }
 footer a{
     color: white;
