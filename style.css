@@ -61,6 +61,7 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+    text-align: justify;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
 }
@@ -89,8 +90,9 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 20px;
+    padding-bottom: 2px;
     background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius:10px;
@@ -193,13 +195,13 @@ aside a{
 
 footer{
     background-color: var(--cor5);
-    height: 10px;
+    height: 20px;
     color: white;
     text-align: center;
     font-size: 0.9em;
     padding: 10px;
     padding-bottom: 14px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 footer a{
