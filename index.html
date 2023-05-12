@@ -7,13 +7,21 @@
     <title>Curiosidades de Tecnologia</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="media.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>        
         <H1>CURIOSIDADES DA TECNOLOGIA</H1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo<br> Tech, em um único lugar.</p>
     </header>
-        <nav>
+
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+        <nav id="itens">
             <a href="@">Home</a>
             <a href="@">Notícias</a>
             <a href="@">Curiosidades</a>
@@ -25,7 +33,7 @@
         <article>
             <h1>História do Mascote do Android</h1>
                 <p>
-                    Provavelmente você sabe que o sistema operacional <strong>Android,</strong> mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+                    Provavelmente você sabe que o sistema operacional <strong>Android</strong>o pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
                 </p>
 
            <h2>A primeira versão</h2> 
@@ -102,6 +110,6 @@
         Site criado por <a href="https://instagram.com/patrickk.rocha?igshid=YmMyMTA2M2Y="target="_blank">@Patrick Rocha</a> guiado pelo <a href="https://github.com/gustavoguanabara" target="_blank">Gustavo Guanabara</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Video.</a>
     </footer>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>

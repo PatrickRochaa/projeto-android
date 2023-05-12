@@ -44,6 +44,23 @@ header{
     padding: 40px;
 }
 
+span#burguer{
+    display:block;
+    text-align: right;
+    background-color: var(--cor5);
+    color:white;
+    font-size:2em;
+    padding:10px;
+    cursor:pointer;
+ }
+ 
+ span#burguer:hover {
+    background-color: var(--cor1);
+    color:var(--cor5);
+    font-size:2.3em;
+    font-weight: bolder;
+ }
+
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
@@ -61,15 +78,16 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    text-align: justify;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
 }
 
 nav{
+    display: none;
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
+    
 }
 
 nav > a {
@@ -79,6 +97,9 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition: 0.5s;
+    display: block;
+    text-align: center;
+    
 }
 
 nav > a:hover {
@@ -90,9 +111,8 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 20px;
-    padding-bottom: 2px;
     background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius:10px;
@@ -125,7 +145,7 @@ main p{
 
 main strong{
     color: var(--cor5);
-    font-weight: bolder;
+    font-weight: bold;
     padding: 2px 6px;
 }
 
@@ -195,13 +215,13 @@ aside a{
 
 footer{
     background-color: var(--cor5);
-    height: 20px;
+    height: 10px;
     color: white;
     text-align: center;
     font-size: 0.9em;
     padding: 10px;
     padding-bottom: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 footer a{
@@ -214,4 +234,3 @@ footer a:hover{
     text-decoration: underline;
     color: var(--cor2);
 }
-
