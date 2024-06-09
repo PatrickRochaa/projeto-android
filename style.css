@@ -53,12 +53,6 @@ span#burguer {
   cursor: pointer;
 }
 
-span#burguer:hover {
-  background-color: var(--cor1);
-  color: var(--cor5);
-  transition: all 0.7s ease-in-out;
-}
-
 header > h1 {
   color: white;
   font-family: var(--fonte-destaque);
